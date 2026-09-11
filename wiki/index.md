@@ -21,4 +21,8 @@ This wiki is maintained by the MSBA student team from supplied client and course
 
 ## Current state
 
-No Meridian source material has been synthesized yet. Add supplied material to `raw/`, then follow the ingest workflow in [`AGENTS.md`](../AGENTS.md).
+One explicitly designated external sector source has been synthesized. Add client or course material to `raw/`, or follow the narrow external-source exception in [`AGENTS.md`](../AGENTS.md).
+
+### Available source summaries
+
+- [ICSC: New Grocery Formats, Store Growth and Investment Activity Signal a Sector in Motion](sources/icsc-grocery-formats-store-growth-2026-04-24.md)

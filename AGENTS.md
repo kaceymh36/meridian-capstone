@@ -6,7 +6,8 @@ This schema governs the Meridian stakeholder-interview research wiki. Follow the
 
 - `raw/` contains client- and course-supplied source material. Never modify an existing file in `raw/`.
 - `wiki/` contains LLM-maintained Markdown. Use standard relative Markdown links.
-- Do not add public-web, third-party, or unsourced material.
+- Do not add public-web, third-party, or unsourced material unless the student team explicitly designates a specific external source for ingestion.
+- For an explicitly designated external source, create an immutable source record in `raw/` that preserves its canonical URL, publisher, publication date when available, and ingest date. Do not treat that exception as permission to add other external sources.
 - Keep the raw source layer separate from generated wiki content. Do not restate a raw document as the source of truth; link to it.
 
 ## Roles and approval
@@ -26,7 +27,7 @@ This schema governs the Meridian stakeholder-interview research wiki. Follow the
 
 ## Ingest workflow
 
-1. Confirm that a student-team member added a client- or course-supplied source to `raw/`.
+1. Confirm that a student-team member added a client- or course-supplied source to `raw/`, or explicitly designated a specific external source for ingestion.
 2. Read the source without modifying it.
 3. Propose a source summary, affected-page changes, index entry, cross-links, and log entry.
 4. Wait for student-team approval.
