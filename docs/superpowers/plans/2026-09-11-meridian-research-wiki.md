@@ -60,7 +60,7 @@ This implementation creates Markdown documents rather than executable software. 
 
 **How to check:** Read the file and confirm it contains sections named `Repository boundaries`, `Roles and approval`, `Citation and hypothesis rules`, `Ingest workflow`, `Query workflow`, and `Health check workflow`. Confirm `git diff -- raw/` is empty.
 
-- [ ] **Step 1: Write the schema file with repository and publishing rules.**
+- [x] **Step 1: Write the schema file with repository and publishing rules.**
 
     Include these exact rules in `AGENTS.md`:
 
@@ -78,7 +78,7 @@ This implementation creates Markdown documents rather than executable software. 
     - Prepare proposed changes first. Publish only after student-team approval.
     ```
 
-- [ ] **Step 2: Add citation, hypothesis, and maintenance rules.**
+- [x] **Step 2: Add citation, hypothesis, and maintenance rules.**
 
     Add these operational requirements:
 
@@ -99,7 +99,7 @@ This implementation creates Markdown documents rather than executable software. 
 
     Define `Query workflow` to search the index before reading linked pages, and `Health check workflow` to report broken links, contradictions, stale hypotheses, orphan pages, missing cross-links, and missing concept pages without publishing fixes automatically.
 
-- [ ] **Step 3: Verify the schema and source boundary.**
+- [x] **Step 3: Verify the schema and source boundary.**
 
     Run:
 
@@ -113,7 +113,7 @@ This implementation creates Markdown documents rather than executable software. 
 
     Expected: no thrown error; no raw-source diff; no whitespace errors.
 
-- [ ] **Step 4: Commit the schema.**
+- [x] **Step 4: Commit the schema.**
 
     ```powershell
     git add AGENTS.md
@@ -135,7 +135,7 @@ This implementation creates Markdown documents rather than executable software. 
 
 **How to check:** Render `wiki/index.md` and follow each relative link after Tasks 3 and 4 create its target. Confirm `wiki/log.md` includes a date-prefixed, append-only entry format and no non-template activity is recorded.
 
-- [ ] **Step 1: Create the index dashboard.**
+- [x] **Step 1: Create the index dashboard.**
 
     Use this initial structure in `wiki/index.md`:
 
@@ -166,7 +166,7 @@ This implementation creates Markdown documents rather than executable software. 
     No Meridian source material has been synthesized yet. Add supplied material to `raw/`, then follow the ingest workflow in [`AGENTS.md`](../AGENTS.md).
     ```
 
-- [ ] **Step 2: Create the append-only log.**
+- [x] **Step 2: Create the append-only log.**
 
     Use this initial structure in `wiki/log.md`:
 
@@ -185,7 +185,7 @@ This implementation creates Markdown documents rather than executable software. 
     - Approval: student-team approver or `not applicable`
     ```
 
-- [ ] **Step 3: Verify navigation and log format.**
+- [x] **Step 3: Verify navigation and log format.**
 
     Run:
 
@@ -197,7 +197,7 @@ This implementation creates Markdown documents rather than executable software. 
 
     Expected: the index command prints the eight listed destinations; the log command prints both the append-only statement and entry heading; no whitespace errors.
 
-- [ ] **Step 4: Commit the navigation and log.**
+- [x] **Step 4: Commit the navigation and log.**
 
     ```powershell
     git add wiki/index.md wiki/log.md
@@ -220,7 +220,7 @@ This implementation creates Markdown documents rather than executable software. 
 
 **How to check:** Confirm the exact heading sets below exist, search the pages for the literal `Meridian` only in template/context labels rather than factual prose, and verify all three relative links from the index resolve to files.
 
-- [ ] **Step 1: Create the sourced briefing template.**
+- [x] **Step 1: Create the sourced briefing template.**
 
     Create `wiki/briefing.md` with:
 
@@ -244,7 +244,7 @@ This implementation creates Markdown documents rather than executable software. 
     - Add questions that supplied sources do not answer.
     ```
 
-- [ ] **Step 2: Create the interview-guide template.**
+- [x] **Step 2: Create the interview-guide template.**
 
     Create `wiki/interview-guide.md` with:
 
@@ -264,7 +264,7 @@ This implementation creates Markdown documents rather than executable software. 
     Add conditional follow-ups that depend on the stakeholder's answer.
     ```
 
-- [ ] **Step 3: Create the hypothesis template.**
+- [x] **Step 3: Create the hypothesis template.**
 
     Create `wiki/hypotheses.md` with:
 
@@ -285,7 +285,7 @@ This implementation creates Markdown documents rather than executable software. 
     Move a hypothesis here only after a sourced interview finding updates it in place.
     ```
 
-- [ ] **Step 4: Verify core templates.**
+- [x] **Step 4: Verify core templates.**
 
     Run:
 
@@ -298,7 +298,7 @@ This implementation creates Markdown documents rather than executable software. 
 
     Expected: all files exist; the command prints the briefing, guide, and hypothesis template markers; no whitespace errors.
 
-- [ ] **Step 5: Commit the core preparation templates.**
+- [x] **Step 5: Commit the core preparation templates.**
 
     ```powershell
     git add wiki/briefing.md wiki/interview-guide.md wiki/hypotheses.md
@@ -322,7 +322,7 @@ This implementation creates Markdown documents rather than executable software. 
 
 **How to check:** Confirm all four README files exist, each includes a `## Page template` heading, and the findings template names interview notes as the source while requiring links to updated pages.
 
-- [ ] **Step 1: Create the source-summary catalog guide.**
+- [x] **Step 1: Create the source-summary catalog guide.**
 
     Create `wiki/sources/README.md` with a `## Purpose` section stating that every file added to `raw/` gets one generated summary page, and a `## Page template` section:
 
@@ -340,7 +340,7 @@ This implementation creates Markdown documents rather than executable software. 
     ## Related pages
     ```
 
-- [ ] **Step 2: Create entity and concept catalog guides.**
+- [x] **Step 2: Create entity and concept catalog guides.**
 
     Give `wiki/entities/README.md` this page template:
 
@@ -370,7 +370,7 @@ This implementation creates Markdown documents rather than executable software. 
 
     Both files must state that factual text requires direct raw-source links.
 
-- [ ] **Step 3: Create the post-interview findings catalog guide.**
+- [x] **Step 3: Create the post-interview findings catalog guide.**
 
     Create `wiki/findings/README.md` with a page template that begins:
 
@@ -391,7 +391,7 @@ This implementation creates Markdown documents rather than executable software. 
     - [Interview guide](../interview-guide.md)
     ```
 
-- [ ] **Step 4: Verify catalog templates.**
+- [x] **Step 4: Verify catalog templates.**
 
     Run:
 
@@ -404,7 +404,7 @@ This implementation creates Markdown documents rather than executable software. 
 
     Expected: all files exist; each README exposes its template; findings includes `Raw source` and `Pages updated`; entity and concept guides state the citation rule; no whitespace errors.
 
-- [ ] **Step 5: Commit the research catalog templates.**
+- [x] **Step 5: Commit the research catalog templates.**
 
     ```powershell
     git add wiki/sources/README.md wiki/entities/README.md wiki/concepts/README.md wiki/findings/README.md
@@ -425,7 +425,7 @@ This implementation creates Markdown documents rather than executable software. 
 
 **How to check:** Run the complete command set below. Open `wiki/index.md` in a Markdown renderer and follow every link. Review the diff to confirm the initial wiki adds no factual claims about Meridian and does not alter `raw/`.
 
-- [ ] **Step 1: Append the initialization record to the log.**
+- [x] **Step 1: Append the initialization record to the log.**
 
     Append this completed entry to `wiki/log.md`:
 
@@ -438,7 +438,7 @@ This implementation creates Markdown documents rather than executable software. 
     - Approval: student-team approver
     ```
 
-- [ ] **Step 2: Run the complete structural validation.**
+- [x] **Step 2: Run the complete structural validation.**
 
     Run:
 
@@ -457,11 +457,11 @@ This implementation creates Markdown documents rather than executable software. 
 
     Expected: all required paths exist; no command throws; the index lists every planned target; the initialization record appears; no whitespace errors; no raw-source changes.
 
-- [ ] **Step 3: Perform the human-readable review.**
+- [x] **Step 3: Perform the human-readable review.**
 
     Open `wiki/index.md` in a Markdown renderer and select each link. Confirm that every link reaches an existing Markdown document and that the content is templates and workflow guidance only, not unsourced Meridian facts.
 
-- [ ] **Step 4: Commit the initialization record.**
+- [x] **Step 4: Commit the initialization record.**
 
     ```powershell
     git add wiki/log.md

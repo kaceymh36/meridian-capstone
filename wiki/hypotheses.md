@@ -16,6 +16,13 @@
 - Validation question: Which grocery-format, physical-footprint, or grocery-anchored-retail trends, if any, are material to Meridian's current priorities?
 - Latest update: no Meridian interview evidence yet.
 
+### Hypothesis: Meridian may use a structured process to evaluate retail locations and learn from post-opening performance.
+
+- Status: proposed
+- Evidence: a SafeGraph sector article describes site selection using market, customer, competitive, physical-site, financial, legal, and post-opening performance information; it does not establish that Meridian uses these factors or process. [Source record](../raw/safegraph-retail-site-selection-checklist-2026.md)
+- Validation question: Which site-selection criteria, data sources, decision gates, and post-opening reviews, if any, does Meridian use?
+- Latest update: no Meridian interview evidence yet.
+
 ## Resolved hypotheses
 
 Move a hypothesis here only after a sourced interview finding updates it in place.
