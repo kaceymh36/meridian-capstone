@@ -38,3 +38,10 @@ This file is append-only. Record each completed ingest, approved update, query o
 - Source or affected pages: [filed analysis](specialty-grocer-opening-locations.md), [index](index.md)
 - Summary: Filed a cited analysis finding that the currently ingested sources do not identify where specialty grocers are opening, and recorded the associated validation question.
 - Approval: student-team direction recorded in conversation on September 11, 2026.
+
+## [2026-09-11] ingest | JLL Grocery Tracker 2026 — Value, Fresh Format & Location
+
+- Status: completed
+- Source or affected pages: [source record](../raw/jll-grocery-tracker-2026-value-fresh-format-location.md), [source summary](sources/jll-grocery-tracker-2026-value-fresh-format-location.md), [grocery formats and anchored retail](concepts/grocery-formats-and-anchored-retail.md), [briefing](briefing.md), [interview guide](interview-guide.md), [hypotheses](hypotheses.md), [specialty-grocer opening locations](specialty-grocer-opening-locations.md), [index](index.md)
+- Summary: Ingested the student-team-approved JLL article as sector context, recorded broader grocery-opening geography with its specialty-category limitation, and updated the related hypothesis and filed analysis in place.
+- Approval: student-team approval recorded in conversation on September 11, 2026; this is a single external-source exception.
