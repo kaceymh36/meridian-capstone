@@ -481,3 +481,23 @@ This implementation creates Markdown documents rather than executable software. 
 | Interview-note ingestion and synthesis | Tasks 1 and 4 |
 | Periodic health check | Task 1 |
 | No invented Meridian content before sources arrive | Tasks 1, 3, and 5 |
+
+## Review notes: approved external-source ingests
+
+### ICSC grocery formats, store growth, and investment activity
+
+- **What I asked the AI to do and what came back:** I requested ingestion of the specifically designated ICSC article and later asked the AI to check one claim against the original article. The AI created the source record and source summary, added sector context to the briefing, interview guide, hypotheses, and grocery-formats concept page, linked the source from the index, and recorded the ingest in the log. For the checked claim, the AI reported that the article's investment section supported the wiki statement that it describes continuing investment activity in grocery-anchored retail centers.
+- **How I checked the work and what I found:** I checked the ICSC source against the original article. I found that the article supported the claim the AI checked.
+- **What I accepted, changed, or rejected and why:** I accepted the ingest because the checked claim matched the original source. No additional change or rejection was documented.
+
+### SafeGraph retail site selection checklist
+
+- **What I asked the AI to do and what came back:** I requested ingestion of the specifically designated SafeGraph article and asked to review the retrieved content before approval. The AI returned the article's ten-step site-selection checklist and its grocery-specific discussion of trade areas, parking, and competitive saturation. After approval, it created the source record, source summary, retail-site-selection concept page, related briefing, interview-guide, and hypothesis updates, index link, and log entry.
+- **How I checked the work and what I found:** I opened the original SafeGraph article and reviewed the content the AI retrieved. I found that the retrieved content matched the original source.
+- **What I accepted, changed, or rejected and why:** I accepted the ingest because the retrieved content matched the original article I reviewed. No additional change or rejection was documented.
+
+### JLL Grocery Tracker 2026 — Value, Fresh Format & Location
+
+- **What I asked the AI to do and what came back:** I requested ingestion of the specifically designated JLL article and asked to review the retrieved content before approval. The AI returned the article's discussion of value-focused and fresh-format grocery categories, overall grocery-opening concentrations in the Southeast and selected Mid-Atlantic markets, and the limitation that the geographic-opening data was not specialty-grocer-specific. After approval, it created the source record and source summary; updated the grocery-formats concept page, briefing, interview guide, hypotheses, index, and log; and revised the filed specialty-grocer-opening-locations analysis to retain that category limitation.
+- **How I checked the work and what I found:** I opened the original JLL article and reviewed the content the AI retrieved. I found that the retrieved content matched the original source.
+- **What I accepted, changed, or rejected and why:** I accepted the ingest because the retrieved content matched the original article I reviewed. No additional change or rejection was documented.
